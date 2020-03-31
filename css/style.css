@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+
+/* ------------------------------
+        Regras Gerais
+------------------------------ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #F2E6D8;
+    color: black;
+}
+
+
+/* ------------------------------  Index  ------------------------------ */
+
+
+/* ------------------------------
+            Header
+------------------------------ */
+
+header {
+    width: 100%;
+    height: 140px;
+    background: black;
+    color: #F2E6D8;
+    font-size: 46px;
+}
+
+header a {
+    color: #F2E6D8;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #F2E6D8;
+}
+
+li {
+    display: inline;
+    font-size: 26px;
+    color: #F2E6D8;
+    margin-right: 30px;
+}
+
+
+/* ------------------------------
+            Main
+------------------------------ */
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.index h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* ------------------------------
+            Footer
+------------------------------ */
+
+footer {
+    text-decoration: none;
+    background: black;
+    color: #F2E6D8;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.1;
+    width: 100%;
+}
+
+footer p a {
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #F2E6D8;
+}
+
+p a:hover {
+    color: #F2E6D8;
+}
+
+
+/* ------------------------------  WORKS  ------------------------------ */
+
+
+/* ------------------------------
+            Main
+------------------------------ */
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.works h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.works h1 a {
+    font-size: 20px;
+    text-align: center;
+    color: #F2E6D8;
+    text-decoration: none;
+}
+
+.works h1 a:hover {
+    color: black;
+}
+
+
+/* ------------------------------  JAZZ  ------------------------------ */
+
+
+/* ------------------------------
+            Main
+------------------------------ */
+
+.jazz h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.jazz p {
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
+img {
+    width: 650px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster-jazz {
+    margin-top: 50px;
+}
+
+.letras {
+    margin-top: 50px;
+}
+
+.poster-rua {
+    margin-top: 50px;
+}
+
+.cartao {
+    margin-top: 50px;
+}
+
+.poster-feelin {
+    margin-top: 50px;
+}
+
+.cartas {
+    margin-top: 50px;
+}
+
+
+/* ------------------------------  ABOUT  ------------------------------ */
+
+
+/* ------------------------------
+            Main
+------------------------------ */
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.about p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.about h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* ------------------------------  MOBILE ------------------------------ */
+
+
+/* ------------------------------  INDEX ------------------------------ */
+
+
+/* ------------------------------
+    Regras Gerais
+------------------------------ */
+
+@media (max-width: 768px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    /* ------------------------------
+            Header
+    ------------------------------ */
+    header {
+        width: 100%;
+        height: 80px;
+        background: black;
+        color: #F2E6D8;
+        font-size: 20px;
+    }
+    header a {
+        color: #F2E6D8;
+        text-decoration: none;
+    }
+    header a:hover {
+        color: #F2E6D8;
+    }
+    li {
+        display: inline;
+        font-size: 12px;
+        color: #F2E6D8;
+        margin-right: 30px;
+    }
+    /* ------------------------------
+            Main
+    ------------------------------ */
+    article img {
+        width: 340px;
+        height: auto;
+    }
+    .index h1 {
+        font-size: 16px;
+        ;
+        text-align: center;
+    }
+    /* ------------------------------  JAZZ ------------------------------ */
+    img {
+        width: 340px;
+        height: auto;
+    }
+    .jazz h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .jazz p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+    /* ------------------------------  ABOUT ------------------------------ */
+    .about p {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .about h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    /* ------------------------------  FOOTER ------------------------------ */
+    footer {
+        text-decoration: none;
+        background: black;
+        color: #F2E6D8;
+        margin-top: 50px;
+        font-size: 16px;
+        line-height: 1.1;
+        width: 100%;
+    }
+    footer p a {
+        font-size: 16px;
+        margin-top: 50px;
+        text-decoration: none;
+        color: #F2E6D8;
+    }
+    p a:hover {
+        color: #F2E6D8;
+    }
+}
